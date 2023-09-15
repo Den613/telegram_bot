@@ -13,7 +13,7 @@ from start import *
 
 
 
-TOKEN = '6313136843:AAFRQofhoCO1BDq36SEtDGBrbAJDGOaHIMs'
+TOKEN = '***'
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO)

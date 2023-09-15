@@ -3,6 +3,7 @@ from dataclasses import dataclass, field
 from typing import Any
 from aiogram.types import InlineKeyboardButton
 
+
 class Operation(Enum):
     START = auto()
     NEXT = auto()

@@ -21,7 +21,6 @@ logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO)
 router = Router()
 
-
 @router.message(CommandStart())
 async def command_start_handler(message: Message, bot: Bot) -> None:
     logger.warning(f'{message.message_id}')

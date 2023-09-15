@@ -28,7 +28,6 @@ async def command_start_handler(message: Message, bot: Bot) -> None:
 
     month = 2
     _, to_d = monthrange(2023, month)
-
     user_states[message.from_user.id] = InputDate(
     
         start_from=datetime(year=2023, month=month, day=1, hour=0, minute=0),
